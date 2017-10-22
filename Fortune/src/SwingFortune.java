@@ -68,14 +68,14 @@ public class SwingFortune implements ActionListener {
 
 	//分岐処理
 	public void fortune() {
-	    	//大吉
-			if (random <= 21) {
+		   //大吉
+		   if (random <= 21) {
 		    label.setIcon(new ImageIcon(getClass().getResource("img/1.png")));
 		    //吉
 		    }else if (random <= 48 ) {
 		    label.setIcon(new ImageIcon(getClass().getResource("img/2.png")));
 		    //中吉
-			}else if (random <= 57 ){
+		    }else if (random <= 57 ){
 		    label.setIcon(new ImageIcon(getClass().getResource("img/3.png")));
 		    //小吉
 		    }else if (random <= 69 ){
@@ -85,11 +85,11 @@ public class SwingFortune implements ActionListener {
 		    label.setIcon(new ImageIcon(getClass().getResource("img/5.png")));
 		    //凶
 		    }else if (random <= 99 ){
-			label.setIcon(new ImageIcon(getClass().getResource("img/6.png")));
+		    label.setIcon(new ImageIcon(getClass().getResource("img/6.png")));
 		    //大凶
 		    }else{
-			label.setIcon(new ImageIcon(getClass().getResource("img/7.png")));
-	        }
+		    label.setIcon(new ImageIcon(getClass().getResource("img/7.png")));
+		    }
 	}
 
 	//アクションリスナー
